@@ -1,26 +1,43 @@
-#topE{
-    background-color: #000;
-    height: 60px;
+body{
+    color:#ffffff;}
+#topE, #topD{
+    border-color:#000;
+    border:2px;
+    border-radius:2%;
+    background-color: #fff;
     min-height: 120px;
-}
-#topD{
-    background-color: #000;
-    height: 60px;
-    min-height: 120px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 #meio{
-    background-color: #000;
-    height: 120px;
-    min-height: 380px;
     
-}
+    background-image:url("imgs/conteudo_meio_banner.jpg");
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    text-align:center;
+    
+     }
+     a{
+         color:#c82333;
+         font-size: 14px;
+         font-family:verdana;
+         font-weight:bold;
+     }
 #rodD{
-    background-color: #000;
-    height: 60px;
-    min-height: 120px;
-}
+    background-color: #c82333;
+    height:50px;
+    text-align: left;}
+
+
 #rodE{
-    background-color: #000;
-    height: 60px;
-    min-height: 120px;
-}
+    background-color: #c82333;
+    text-align:end;
+    height:50px;
+    }
+    .fatec{
+        max-width:190px;
+        width: auto;
+    }
