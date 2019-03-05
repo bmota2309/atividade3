@@ -1,6 +1,7 @@
 body{
     color:#ffffff;}
 #topE, #topD{
+    position:relative;
     border-color:#000;
     border:2px;
     border-radius:2%;
@@ -11,15 +12,35 @@ body{
     font-size: 18px;
 }
 #meio{
-    
     background-image:url("imgs/conteudo_meio_banner.jpg");
     border-top-left-radius:9px;
     border-top-right-radius:9px;
     background-repeat:no-repeat;
     background-size: 100%;
-    text-align:center;
-    
      }
+     #meio h2{
+         position:initial;
+         text-align: center;
+         font-size: 20px;
+         font-weight: bold;
+         background-color:  #c82333;
+         border-spacing:0;
+         
+         
+     }
+     #meio p{
+         position:initial;
+         text-align: center;
+         font-size: 10px;
+         font-weight: bold;
+         border-radius: 4px;
+         margin-bottom:2px;
+         background-color:#c82333;
+	 filter:opacity(alpha=60);
+         opacity:0.7;
+         border-spacing:inherit;
+     }
+ 
      a{
          color:#c82333;
          font-size: 14px;
@@ -41,3 +62,35 @@ body{
         max-width:190px;
         width: auto;
     }
+    #embed{
+        position: relative;
+        width: 100%;
+        height: 80%;
+        padding-bottom: 56.25%;
+    }
+    #embed iframe{
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        text-align: center;
+        border: none;
+    }
+    #poster .capa{
+        max-width: 200px;
+        border-color: #fff;
+        border: 3px;
+        align-items: center;
+        text-align: center;
+    }
+    .capa {
+        max-width:450px;
+        max-height:250px;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    #poster1,#poster2,#poster3,#poster4{
+        float: left;
+        text-align: center;
+    }
+    
